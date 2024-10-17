@@ -1,4 +1,4 @@
-# 프로젝트 1일차
+# 프로젝트 1-2일차
     - 프로젝트 폴더 생성, 깃init, 깃허브 레포지토리 연동
     - nodejs 설치(LTE버전) - nodejs.org  -- 기존설치 완료
     - vs extention 설치(수업중 설치 완료)
@@ -10,6 +10,37 @@
     - implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect' 타임리프 레이아웃 빌드그래들에 꼭 넣기
     - js 사용 도넛, 그리드 작성
 
+# 프로젝트 3-4일차
+    - 차트그리기 복습 완료, 챗봇 만들기 복습
+    - css selecter, jquery 복습
+    - 소켓io 사용법 복습
+        - 스프링부트 설치 
+            ``` 
+                # build.gradle
+                //https://github.com/mrniko/netty-socketio
+	            implementation 'com.corundumstudio.socketio:netty-socketio:2.0.11'
+            ```
+            ```
+                # application.properties
+                socketio.server.hostname=localhost
+                socketio.server.port=9092
+            ```
+        - html cdn
+            ```
+              <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" integrity="sha384-2huaZvOR9iDzHqslqwpR87isEmrfxqyWOF7hr7BY6KG0+hVKLoEXMPUJw3ynWuhO" crossorigin="anonymous"></script>
+            ```
+    - 네이버 api 사용
+        ``` 
+            # application.propertie
+            naver.client.id = 1QSxRtIDsO2dOZ20Q66C
+            naver.client.secret = uuSOJs8yaG
+        ```
+    
+    - 리액트 기초 시작
+    - 리액트 한국 설명 사이트
+        - 공홈
+            - https://react.dev/
+            - https://ko.legacy.reactjs.org/docs/getting-started.html
 
 
 
@@ -83,4 +114,43 @@
         JS #020
         https://youtu.be/pho8s4iBkh0?si=XB4iBV5fJenBsdIy
     ```
+    ```
+        JS #021
+        https://youtu.be/C76VD4q5TAA?si=UadM2__QMGOG_qGl
+
+        JS #022
+        https://youtu.be/50rptKbaGDk?si=0HsC8QdsFNgTFDPN
+
+        JS #023
+        https://youtu.be/3Wl1sJnVsaQ?si=NnJwpqsGexxr3ZOK
+
+        JS #024
+        https://youtu.be/Z9BtcsWXfhg?si=AnI6uLnisy6V2VtV
+
+        JS #025
+        https://youtu.be/s_u3cGCaCrw?si=XIxV9ZK2wlDUqbKw
+    ```
+
+# 수업 복습 동영상(리액트 파트)
+    ```
+        1
+        https://youtu.be/WvsrBJIWky0?si=dzSBI2qrPgKVYs5X
+
+        2
+        https://youtu.be/zTBHmC7i3j4?si=YAYep9nQtTzCukad
+
+        3
+        https://youtu.be/nphkHqy_ZyU?si=CQUhIo9ZCcYpbuc5    feat : 2024-10-17 여기까지 복습함
+
+        4
+        https://youtu.be/kPIOQAqM0pE?si=qFsvDkWvI1z44L-8   
+
+        5
+        https://youtu.be/27TjExRapWo?si=nWp9oh9Z9oO9zwmj
+
+        6
+        https://youtu.be/pVDD7UYzao8?si=_55dWQTAR8MErWVM
+    ```
+
+
 
